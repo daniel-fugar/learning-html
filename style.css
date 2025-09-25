@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --primary-color: #19183B;
   --secondary-color: #708993;
@@ -9,8 +11,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
+
+/* body {
+  background-color: var(--primary-color);
+} */
 
 ul {
   display: flex;

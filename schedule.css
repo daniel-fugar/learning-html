@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+table {
+  width: 80%;
+  border: 1px solid black;
+  table-layout: fixed;
+  /* min-width: 1000px; */
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 0.6rem;
+  vertical-align: top;
+  /* padding: 0.3rem; */
+}
+
+/* Best practice dictates: */
+/* numbers aligned to the right */
+tr :nth-child(3) {
+  text-align: right;
+  width: 15%;
+}
+
+/* text aligned to the left */
+tr :nth-child(2) {
+  text-align: left;
+  width: 35%;
+}
+
+tr :nth-child(1) {
+  text-align: left;
+  width: 20%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:antiquewhite;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  caption-side: top;
+  letter-spacing: 1px;
+}
