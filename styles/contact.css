@@ -1,0 +1,26 @@
+form {
+  height: 80vh;
+  /* width: 20px; */
+}
+
+
+textarea {
+  display: block;
+  overflow: auto;
+  width: 50%;
+  height: 30%;
+}
+
+body {
+  background: linear-gradient(in hsl longer hue, blue, red);
+  color: white;
+}
+
+
+
+
+input, button {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+}

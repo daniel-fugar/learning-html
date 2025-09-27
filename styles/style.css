@@ -8,17 +8,25 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: inherit;
 }
 
-/* body {
-  background-color: var(--primary-color);
-} */
+html {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+}
 
-ul {
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+}
+
+nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
